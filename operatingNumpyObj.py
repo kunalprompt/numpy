@@ -39,4 +39,9 @@ print "Repeating the array elements(in succession) on row or column dimensions w
 arr = num_obj.repeat(2, axis=0) # repeats each row twice in succession
 # ndarray.repeat(<number_of_times>, <row_or_column>)
 print arr
+val=1.35
+print "Subtracting an %f from all the elements "%(val)
+arr=abs(arr-val)
+print arr
 print
+
