@@ -22,3 +22,5 @@ print "Data Type of this object - "+str(num_obj.dtype)
 
 x=2;y=1
 print "Value of element at %d, %d of this numpy object is -"%(x, y), num_obj[x, y]
+# note under the hood num_obj[x, y] is converted to num_obj.getitem((x,y))
+# you can also refernce it as num_obj[(x,y)]
